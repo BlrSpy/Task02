@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         ApplianceController controller = new ApplianceControllerImpl();
-        controller.execute();
+        System.out.println(controller.execute());
+
     }
 }

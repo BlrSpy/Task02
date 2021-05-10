@@ -1,9 +1,12 @@
 package by.epam.service;
 
 
+import by.epam.bean.Appliance;
+
+
 public interface CheapestAppliance {
 
-    String findCheapestAppliance() throws ServiceException;
-    String findCheapestAppliance(String nameProduct) throws ServiceException;
+    Appliance findCheapestAppliance() throws ServiceException;
+    Appliance findCheapestAppliance(String nameProduct) throws ServiceException;
 
 }

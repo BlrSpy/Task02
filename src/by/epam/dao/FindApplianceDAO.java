@@ -1,7 +1,10 @@
 package by.epam.dao;
 
-import java.util.ArrayList;
+import by.epam.bean.Appliance;
+
+import java.util.HashMap;
+
 
 public interface FindApplianceDAO {
-    ArrayList<String> findByCategory(String name) throws DAOException;
+    HashMap<String, Appliance> findByCategory(String name) throws DAOException;
 }

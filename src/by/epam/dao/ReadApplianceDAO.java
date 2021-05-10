@@ -1,7 +1,8 @@
 package by.epam.dao;
 
-import java.util.ArrayList;
+import by.epam.bean.Appliance;
+import java.util.HashMap;
 
 public interface ReadApplianceDAO {
-    ArrayList<String> readAppliance() throws DAOException;
+    HashMap<String, Appliance> readAppliance() throws DAOException;
 }
